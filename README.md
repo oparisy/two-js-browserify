@@ -2,7 +2,7 @@
 
 ## Goal
 
-Illustrate the use of [two.js](https://two.js.org/) in a browserify environment, as documented [here](https://github.com/jonobr1/two.js/issues/43).
+Illustrate the use of [two.js](https://two.js.org/) in a browserify environment, thanks to [browserify-shim](https://github.com/thlorenz/browserify-shim) as documented [here](https://github.com/jonobr1/two.js/issues/43).
 
 ## Usage
 
