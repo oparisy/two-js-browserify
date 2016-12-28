@@ -1,0 +1,47 @@
+{
+  "name": "two-js-browserify",
+  "version": "1.0.0",
+  "scripts": {
+    "lint-and-fix": "standard --fix && jshint index.js",
+    "bundle": "browserify index.js -o bundle.js",
+    "start": "budo index.js --live --open --"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "standard": "latest",
+    "budo": "^6.0.0"
+  },
+  "browserify": {
+    "transform": [ "browserify-shim" ]
+  },
+  "browser": {
+    "two": "./vendor/two.js" 
+  },
+  "browserify-shim": {
+    "two": "Two" 
+  }, 
+  "standard": {
+  "ignore": [
+    "/vendor/"
+  ]
+}, 
+  "dependencies": {
+    "browserify-shim": "^3.8.12"
+  },
+  "description": "Illustrate the use of two.js in a browserify environment",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oparisy/two-js-browserify.git"
+  },
+  "keywords": [
+    "two.js",
+    "browserify"
+  ],
+  "author": "Olivier Parisy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oparisy/two-js-browserify/issues"
+  },
+  "homepage": "https://github.com/oparisy/two-js-browserify"
+}
