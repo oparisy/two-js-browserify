@@ -1,5 +1,5 @@
 {
-  "name": "two-js-browserify",
+  "name": "two-js-browserify-shim",
   "version": "1.0.0",
   "scripts": {
     "lint-and-fix": "standard --fix && jshint index.js",
@@ -32,7 +32,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oparisy/two-js-browserify.git"
+    "url": "git+https://github.com/oparisy/two-js-browserify-shim.git"
   },
   "keywords": [
     "two.js",
@@ -41,7 +41,7 @@
   "author": "Olivier Parisy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oparisy/two-js-browserify/issues"
+    "url": "https://github.com/oparisy/two-js-browserify-shim/issues"
   },
-  "homepage": "https://github.com/oparisy/two-js-browserify"
+  "homepage": "https://github.com/oparisy/two-js-browserify-shim"
 }
