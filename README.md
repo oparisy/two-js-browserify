@@ -6,7 +6,6 @@ Illustrate the use of [two.js](https://two.js.org/) in a browserify environment,
 
 ## Usage
 
-
 This should display the ["Basic Usage"](https://two.js.org/#basic-usage) example.
 
 ```bash
